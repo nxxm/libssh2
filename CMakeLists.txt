@@ -35,7 +35,7 @@
 
 cmake_minimum_required(VERSION 3.17.0)
 ##### PLATFORM deps ##### 
-set(HUNTER_ROOT "$ENV{HUNTER_ROOT}")
+set(HUNTER_ROOT $ENV{HUNTER_ROOT})
 include(HunterGate)
 HunterGate(
     URL "unused" 
