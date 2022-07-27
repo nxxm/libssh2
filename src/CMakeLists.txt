@@ -43,6 +43,10 @@ include(CheckNonblockingSocketSupport)
 include(SocketLibraries)
 
 ## Cryptography backend choice
+hunter_add_package(OpenSSL COMPONENTS )
+hunter_add_package(ZLIB COMPONENTS )
+
+
 
 set(CRYPTO_BACKEND
   ""
