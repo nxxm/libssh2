@@ -1,3 +1,7 @@
 {
-    "platform" : [ "ZLIB::+zlib","OpenSSL::+SSL", "OpenSSL::+Crypto" ]
+    "platform" : [ "ZLIB::+zlib","OpenSSL::+SSL", "OpenSSL::+Crypto" ],
+    "platform:linux-cxx17" : [ "ZLIB::+zlib","OpenSSL::+SSL", "OpenSSL::+Crypto","target::dl" ],
+    "platform:linux" : [ "ZLIB::+zlib","OpenSSL::+SSL", "OpenSSL::+Crypto","target::dl" ]
+
+
 }
