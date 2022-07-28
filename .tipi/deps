@@ -1,7 +1,6 @@
 {
     "platform" : [ "ZLIB::+zlib","OpenSSL::+SSL", "OpenSSL::+Crypto" ],
     "platform:linux-cxx17" : [ "ZLIB::+zlib","OpenSSL::+SSL", "OpenSSL::+Crypto","target::dl" ],
-    "platform:linux" : [ "ZLIB::+zlib","OpenSSL::+SSL", "OpenSSL::+Crypto","target::dl" ]
-
-
+    "platform:linux" : [ "ZLIB::+zlib","OpenSSL::+SSL", "OpenSSL::+Crypto","target::dl" ],
+    "platform:vs-16-2019-win64-cxx17" : [ "ZLIB::+zlib","OpenSSL::+SSL", "OpenSSL::+Crypto", "target::crypt32" ]
 }
