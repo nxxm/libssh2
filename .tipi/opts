@@ -1,1 +1,5 @@
 set(BUILD_TESTING OFF CACHE BOOL "no test" FORCE)
+
+add_compile_definitions(
+    LIBSSH2DEBUG
+)

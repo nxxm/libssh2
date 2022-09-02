@@ -4,7 +4,8 @@ add_compile_definitions(
     _WIN32_WINNT=0x0A00 # We have to set the windows version targeted
     WINVER=0x0A00 # We have to set the windows version targeted
     LYRA_CONFIG_OPTIONAL_TYPE=std::optional
-
+    CRYPTO_BACKEND=OpenSSL
+    LIBSSH2DEBUG
 )
 
 add_compile_options(
